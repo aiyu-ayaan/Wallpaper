@@ -6,9 +6,9 @@ This is a Wallpaper app that allows users to browse and download wallpapers from
 ## Architecture
 The app follows the MVVM (Model-View-ViewModel) architectural pattern. It separates the app into three main components:
 
-Model: Represents the data and business logic of the app.
-View: Handles the user interface and user interactions.
-ViewModel: Acts as a mediator between the Model and the View, providing data to the View and handling user actions.
+- Model: Represents the data and business logic of the app.
+- View: Handles the user interface and user interactions.
+- ViewModel: Acts as a mediator between the Model and the View, providing data to the View and handling user actions.
 
 ## API Calls
 The app uses Retrofit to make API calls to the https://jsonplaceholder.typicode.com/photos endpoint. The API service interface and network configuration can be found in the api package.
