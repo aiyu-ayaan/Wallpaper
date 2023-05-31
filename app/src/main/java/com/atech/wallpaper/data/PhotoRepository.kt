@@ -10,7 +10,7 @@ import javax.inject.Inject
 class PhotoRepository @Inject constructor(
     private val api: PhotoApi
 ) {
-    suspend fun getPhotos(): Flow<DataState<List<PhotoModel>>> {
+    fun getPhotos(): Flow<DataState<List<PhotoModel>>> {
         return flow {
             emit(DataState.Loading)
             try {
